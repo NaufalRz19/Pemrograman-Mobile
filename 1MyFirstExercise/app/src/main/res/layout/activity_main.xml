@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biodata Mahasiswa"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama         : "
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="120dp"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:text="[Nama Mahasiswa]"
+        android:textColor="#C0C0C0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM            : "
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="120dp"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:text="[NIM Mahasiswa]"
+        android:textColor="#C0C0C0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TTL            : "
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="120dp"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:text="[TTL Mahasiswa]"
+        android:textColor="#C0C0C0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prodi          : "
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/prodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="120dp"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:text="[Program Studi Mahasiswa]"
+        android:textColor="#C0C0C0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cita-Cita    : "
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/cita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="120dp"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:text="[Cita-Cita Mahasiswa]"
+        android:textColor="#C0C0C0"/>
+
+</RelativeLayout>
